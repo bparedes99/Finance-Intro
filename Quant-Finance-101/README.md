@@ -142,40 +142,6 @@ This helps quantify peak-to-trough losses, which is important for risk managemen
 | yfinance | Market data extraction |
 | Jupyter Notebook | Interactive research environment |
 
-## How to Run This Project
-
-Clone the repository or download the notebook, then install the required packages:
-
-```bash
-pip install numpy pandas matplotlib yfinance jupyter
-```
-
-Launch Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Open the notebook file and run the cells from top to bottom.
-
-## Suggested Repository Structure
-
-```text
-quant-intro-finance/
-├── README.md
-├── v2 Updated Quant Intro.ipynb
-└── requirements.txt
-```
-
-Optional `requirements.txt`:
-
-```text
-numpy
-pandas
-matplotlib
-yfinance
-jupyter
-```
 
 ## Skills Demonstrated
 
@@ -201,19 +167,6 @@ This notebook turns raw ETF price data into investment decision metrics. Instead
 
 The project also shows a clear progression from basic Python syntax into applied portfolio analytics, making it a strong early-stage quantitative finance project for a GitHub portfolio, resume, or interview discussion.
 
-## Future Improvements
-
-Potential next upgrades include:
-
-- Add a true Sharpe ratio using a risk-free rate.
-- Add rolling volatility and rolling returns.
-- Add rolling drawdown charts.
-- Add Sortino ratio, Calmar ratio, and maximum drawdown tables.
-- Compare additional ETFs, such as QQQ, IWM, GLD, TLT, and VTI.
-- Add portfolio weights and rebalance logic.
-- Build a simple 60/40 equity-bond portfolio analysis.
-- Export results to CSV or Excel.
-- Add a clean summary dashboard using Plotly or Streamlit.
 
 ## Disclaimer
 
@@ -222,3 +175,5 @@ This project is for educational and portfolio demonstration purposes only. It is
 ## Credit
 
 This project was adapted from an introductory Finance 101 Python notebook structure and expanded with updated ETF data, annualized performance functions, risk analytics, cumulative wealth indexing, and drawdown visualization.
+Credits and thanks to:
+https://github.com/daniel-boctor/Daniel-Boctor-Youtube/tree/main/Finance101

@@ -4,7 +4,7 @@ This project is an introductory quantitative finance notebook that uses Python t
 
 ## Project Objective
 
-The goal of this notebook is to demonstrate the foundation of market data analysis using Python. It focuses on SPY as an equity market proxy and BND as a bond market proxy, then compares their historical monthly returns, volatility, annualized performance, raw Sharpe ratio, wealth index, and drawdown behavior.
+The goal of this notebook is to demonstrate the foundation of market data analysis using Python. It focuses on SPY as an equity market benchmark and BND as a bond market benchmark, then compares their historical monthly returns, volatility, annualized performance, raw Sharpe ratio, wealth index, and drawdown behavior.
 
 This is intended as an educational quantitative finance project for learning, portfolio analytics practice, and GitHub portfolio development.
 
